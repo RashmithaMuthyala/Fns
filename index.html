@@ -75,6 +75,21 @@ width:100%;
     object-fit: cover; 
 }
 
+.image-container {
+    margin-top: 20px;
+    width: 100%; 
+    height: 460px; 
+    overflow: hidden; 
+}
+
+.image-container img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .k{
     height:5vh;
@@ -115,34 +130,8 @@ background-color: green;
 .scroll{
 
 }
-.image-container {
-    margin-top: 10px;
-    height:20vh;
-    position: relative;
-    width: 1800px;
-    height:1700px ; /
-}
-.image-container img {
-    position: absolute;
-    width: 70%;
-    height: 15%;
-    opacity: 0;
-    animation: imageFade 4s infinite;
-}
 
-.image-container img:nth-child(1) {
-    animation-delay: 0s;
-}
 
-.image-container img:nth-child(2) {
-    animation-delay: 2s;
-}
-@keyframes imageFade {
-    0% { opacity: 1; }
-    49% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 0; }
-}
 .container {
      
     display: flex;
@@ -254,6 +243,7 @@ top:0px;
     padding: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
+    width:100px;
 }
 
 
@@ -274,7 +264,7 @@ top:0px;
             </div>
             <div class="header">
                 <div class="header_logo">
-                    <img src="varadhi.jpeg" style="height:50px;">
+                    <img src="var.jpg" style="height:50px;">
                 </div>
                 <div class="header_menu">
                    <div>Home</div>
@@ -289,9 +279,9 @@ top:0px;
                     <i class="fa fa-shopping-basket"></i>
             </div>
             </div>
-      <div class="image-container">
+      <div class="image-container" >
         <img src="https://vaaradhifarms.com/cdn/shop/files/varadhi_farms_honey_-v1_-_web_final.jpg?v=1733085382&width=1400">
-        <img src="https://vaaradhifarms.com/cdn/shop/files/varadhi_farms_ghee_-v1_-_web_final.jpg?v=1733085382&width=1400">
+        
     </div>
 
             </div>
@@ -301,7 +291,7 @@ top:0px;
                 <div class="container">
                     <button class="button">View All →</button>
                 </div>
-                <div class="image">
+                <div class="image" style=" display:grid;grid-template-columns: repeat(4,1fr); align-items: center;">
                     <div class="image1">
                         <img src="https://vaaradhifarms.com/cdn/shop/files/Ghee_HighRes.jpg?v=1698928244&width=300">
                         <h5 class="product-title" style=" font-weight:normal;"><b></b>A2 Desi Cow Cultured Ghee</b></h5>
@@ -322,7 +312,7 @@ top:0px;
                     </div>
                    
                     <div class="image3">
-                        <img src="https://vaaradhifarms.com/cdn/shop/files/WhatsAppImage2024-04-26at1.21.52AM.jpg?v=1714074796&width=300">
+                        <img src="https://vaaradhifarms.com/cdn/shop/files/WhatsAppImage2024-04-26at1.21.52AM.jpg?v=1714074796&width=200" style="height:300px;margin-bottom:15px;margin-top: -5px;width:300px">
                         <h5 class="product-title">Wild Raw Forest Honey
                           
                             
@@ -398,7 +388,7 @@ top:0px;
             <div class="greenimages"></div>
 <img src="https://vaaradhifarms.com/cdn/shop/files/vaaradhi_farms.jpg?v=1733113339&width=400">
 <img src="https://vaaradhifarms.com/cdn/shop/files/ecommified_Front-facing_close-up_eye-level_shot_of_a_plain_flat_22ecbd0e-a868-400f-851a-1b171609766c.png?v=1732686759&width=400">
-<img src="https://vaaradhifarms.com/cdn/shop/files/pickle_collection_image_-_v1.png?v=1732697129&width=400">
+<img src="https://vaaradhifarms.com/cdn/shop/files/pickle_collection_image_-_v1.png?v=1732697129&width=400" >
 <img src="https://vaaradhifarms.com/cdn/shop/files/sweet_and_snacks.jpg?v=1732699427&width=400">
 </div>
 
